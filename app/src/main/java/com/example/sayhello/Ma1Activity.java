@@ -18,7 +18,7 @@ public class Ma1Activity extends AppCompatActivity {
         button_joinDialog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1=new Intent(Ma1Activity.this,JoinActivity.class);//启动Activity需要创建Intent对象，第一个是一个上下文对象，activity是text一个子类，可以直接用，第二个是class对象
+                Intent intent1=new Intent(Ma1Activity.this,ChatRoomActivity.class);//启动Activity需要创建Intent对象，第一个是一个上下文对象，activity是text一个子类，可以直接用，第二个是class对象
                 startActivity(intent1);//启动的入口参数是intent
             }//detail加入 join训练
         });
