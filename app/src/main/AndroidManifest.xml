@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".chatroomActivity"></activity>
+        <activity android:name=".WaitJoinActivity"></activity>
+        <activity android:name=".chatroomActivity" />
         <activity android:name=".NewActivity" />
         <activity android:name=".Ma1Activity" />
         <activity android:name=".Mine" />

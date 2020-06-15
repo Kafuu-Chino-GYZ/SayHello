@@ -19,7 +19,7 @@ import androidx.annotation.Nullable;
  * Created by DELL on 2020/6/13.
  */
 
-public class CircleImageView extends androidx.appcompat.widget.AppCompatImageView {
+public class CircleImageView extends  androidx.appcompat.widget.AppCompatImageView{
 
     //画笔
     private Paint mPaint;
