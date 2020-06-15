@@ -14,16 +14,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button excriseButton=findViewById(R.id.excrise);
-        excriseButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,Ma1Activity.class);
-                startActivity(intent);
-            }
-        });
     }
     public void OpenMine(View v){
         Intent it=new Intent(this,Mine.class);
+        startActivity(it);
+    }
+    public void OpenMa1(View v){
+        Intent it=new Intent(this,Ma1Activity.class);
         startActivity(it);
     }
 }

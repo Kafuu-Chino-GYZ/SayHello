@@ -1,19 +1,10 @@
 package com.example.sayhello;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
-import android.os.Handler;
 import android.os.SystemClock;
-import android.provider.Settings;
-import android.text.Editable;
-import android.util.AttributeSet;
-import android.util.Log;
 import android.view.ContextMenu;
-import android.view.InflateException;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -22,20 +13,20 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Chronometer;
 import android.widget.ImageButton;
-import android.widget.ImageView;;import static android.content.ContentValues.TAG;
+import android.widget.ImageView;;
 
 /**
  * Created by DELL on 2020/6/12.
  */
 
 
-public class ChatRoomActivity extends Activity {
+public class chatroomActivity extends Activity {
 
     Chronometer ch;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chat_room);
+        setContentView(R.layout.activity_chatroom);
 
         ImageView imageView1 = (ImageView) findViewById(R.id.member1);
         imageView1.setOnClickListener(new View.OnClickListener() {
@@ -132,7 +123,7 @@ public class ChatRoomActivity extends Activity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case R.id.xuanlan1:
-                Intent intent = new Intent(ChatRoomActivity.this,Mine.class);
+                Intent intent = new Intent(chatroomActivity.this,Mine.class);
                 startActivity(intent);
                 break;
             case R.id.xuanlan2:

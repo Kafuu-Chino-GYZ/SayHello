@@ -12,7 +12,7 @@
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/ptou"
+        android:src="@drawable/sagiri"
         android:layout_column="1"
         android:layout_row="1"
         android:layout_columnSpan="2"
@@ -24,7 +24,7 @@
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/ptou"
+        android:src="@drawable/sagiri"
         android:layout_column="5"
         android:layout_row="1"
         android:layout_columnSpan="2"
@@ -64,37 +64,37 @@
         />
 
     <TextView
+        android:layout_width="371dp"
         android:layout_height="200dp"
-        android:layout_column="2"
         android:layout_row="2"
-        android:layout_columnSpan="6"
         android:layout_rowSpan="8"
+        android:layout_column="2"
+        android:layout_columnSpan="6"
         android:layout_gravity="center"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:background="@drawable/zhuomian"
+        android:background="@mipmap/background3"
         android:text="需要读的东西"
-        android:textSize="30sp"
-        />
+        android:textSize="30sp" />
 
     <com.example.sayhello.CircleImageView
         android:id="@+id/member3"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/ptou"
-        android:layout_column="1"
         android:layout_row="8"
-        android:layout_columnSpan="2"
         android:layout_rowSpan="2"
-        android:layout_marginLeft="15dp"/>
+        android:layout_column="1"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="15dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sagiri" />
 
     <com.example.sayhello.CircleImageView
         android:id="@+id/member4"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/ptou"
+        android:src="@drawable/sagiri"
         android:layout_column="5"
         android:layout_row="8"
         android:layout_columnSpan="2"
@@ -105,11 +105,11 @@
         android:id="@+id/xuanxiang"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:scaleType="fitXY"
         android:layout_row="10"
         android:layout_column="6"
-        android:src="@drawable/xuanxiang"
         android:background="#0000"
-        android:entries="@array/xuan0"/>
+        android:entries="@array/xuan0"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/ic_menu_agenda" />
 
 </GridLayout>

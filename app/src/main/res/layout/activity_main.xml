@@ -27,6 +27,7 @@
         android:layout_height="200dp"
         android:layout_centerInParent="true"
         android:background="@mipmap/button2"
+        android:onClick="OpenMa1"
         android:text="训练"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
